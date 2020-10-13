@@ -1,4 +1,14 @@
 theme = "hyde"
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "IBP Cash Transfers"
+
+
+[Menus]
+  main = [
+      {Name = "Data", URL = ""},
+      {Name = "Collaborate", URL = ""},
+      {Name = "Resources", URL = ""},
+      {Name = "About", URL = ""},
+      {Name = "Content", URL = ""}
+  ]
